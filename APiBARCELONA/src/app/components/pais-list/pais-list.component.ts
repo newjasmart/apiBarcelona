@@ -1,12 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-pais-list',
   templateUrl: './pais-list.component.html',
-  standalone: true,
-  styleUrls: ['./pais-list.component.css']
 })
-export class PaisListComponent implements OnInit {
+export class PaisListComponent {
   countries = [
     {
       id: 2,
@@ -61,9 +59,4 @@ export class PaisListComponent implements OnInit {
       image_path: "https://cdn.sportmonks.com/images/countries/png/short/pt.png"
     }
   ];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 }

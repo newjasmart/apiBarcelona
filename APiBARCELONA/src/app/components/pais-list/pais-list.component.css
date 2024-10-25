@@ -1,0 +1,20 @@
+   /* APiBARCELONA/src/app/components/pais-list/pais-list.component.css */
+   .pais-list {
+    border: 2px solid #ccc; /* Color de la frontera del país */
+    border-radius: 8px; /* Arrodoniment de les cantonades */
+    padding: 10px; /* Espai interior */
+    margin: 10px 0; /* Espai entre els elements */
+}
+
+.country-item {
+    margin-bottom: 10px; /* Espai entre cada país */
+    padding: 10px; /* Espai interior per a cada país */
+    border: 1px solid #ddd; /* Línia de frontera per a cada país */
+    border-radius: 4px; /* Arrodoniment de les cantonades */
+}
+
+.country-item img {
+    width: 50px; /* Amplada de la bandera */
+    height: auto; /* Altura automàtica per mantenir la proporció */
+    margin-right: 10px; /* Espai entre la bandera i el text */
+}
